@@ -6,7 +6,7 @@ export default function Display(props) {
     fontWeight: "bold",
   };
   return (
-    <Box>
+    <Box className="display">
       <Typography
         variant="h1"
         component="p"
