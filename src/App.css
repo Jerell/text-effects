@@ -1,3 +1,58 @@
-.display:nth-child(1) {
+header {
+  padding: 15px;
+}
+
+.display {
+  text-align: center;
+}
+.display p {
+  position: relative;
+}
+
+/* First */
+.display:nth-child(1) p {
+  background: white;
+  overflow: visible;
+  color: black;
+  display: inline-block;
+  --offset: -10px;
+}
+.display:nth-child(1) p::before {
+  content: attr(data-before);
+  position: absolute;
+  left: var(--offset);
   color: red;
+  z-index: -1;
+}
+.display:nth-child(1) p::after {
+  content: attr(data-before);
+  position: absolute;
+  right: var(--offset);
+  color: blue;
+  z-index: -1;
+}
+
+/* Second */
+.display:nth-child(2) p {
+  overflow: visible;
+  color: transparent;
+  display: inline-block;
+  --offset: -5px;
+  --opacity: 0.8;
+}
+.display:nth-child(2) p::before {
+  content: attr(data-before);
+  position: absolute;
+  left: var(--offset);
+  color: red;
+  z-index: -1;
+  opacity: var(--opacity);
+}
+.display:nth-child(2) p::after {
+  content: attr(data-before);
+  position: absolute;
+  right: var(--offset);
+  color: blue;
+  z-index: -1;
+  opacity: var(--opacity);
 }
