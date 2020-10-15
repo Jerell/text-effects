@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/text-effects/static/css/main.7a566daf.chunk.css",
+    "main.css": "/text-effects/static/css/main.830e78ee.chunk.css",
     "main.js": "/text-effects/static/js/main.d11a5d95.chunk.js",
     "main.js.map": "/text-effects/static/js/main.d11a5d95.chunk.js.map",
     "runtime-main.js": "/text-effects/static/js/runtime-main.408f6ad9.js",
@@ -8,15 +8,15 @@
     "static/js/2.64f55ba4.chunk.js": "/text-effects/static/js/2.64f55ba4.chunk.js",
     "static/js/2.64f55ba4.chunk.js.map": "/text-effects/static/js/2.64f55ba4.chunk.js.map",
     "index.html": "/text-effects/index.html",
-    "precache-manifest.a6cfd463245193423853fbf41adbebb4.js": "/text-effects/precache-manifest.a6cfd463245193423853fbf41adbebb4.js",
+    "precache-manifest.c1c82e09d37ac5c0390e7b16be7377c6.js": "/text-effects/precache-manifest.c1c82e09d37ac5c0390e7b16be7377c6.js",
     "service-worker.js": "/text-effects/service-worker.js",
-    "static/css/main.7a566daf.chunk.css.map": "/text-effects/static/css/main.7a566daf.chunk.css.map",
+    "static/css/main.830e78ee.chunk.css.map": "/text-effects/static/css/main.830e78ee.chunk.css.map",
     "static/js/2.64f55ba4.chunk.js.LICENSE.txt": "/text-effects/static/js/2.64f55ba4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.408f6ad9.js",
     "static/js/2.64f55ba4.chunk.js",
-    "static/css/main.7a566daf.chunk.css",
+    "static/css/main.830e78ee.chunk.css",
     "static/js/main.d11a5d95.chunk.js"
   ]
 }
