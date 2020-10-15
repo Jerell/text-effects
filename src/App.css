@@ -21,11 +21,16 @@ header {
   color: black;
   display: inline-block;
   --offset: -10px;
+  --shift: 0px;
+}
+.display:nth-child(1) p:hover {
+  --shift: 3px;
 }
 .display:nth-child(1) p::before {
   content: attr(data-before);
   position: absolute;
   left: var(--offset);
+  top: var(--shift);
   color: red;
   z-index: -1;
 }
@@ -33,6 +38,7 @@ header {
   content: attr(data-before);
   position: absolute;
   right: var(--offset);
+  top: var(--shift);
   color: blue;
   z-index: -1;
 }
