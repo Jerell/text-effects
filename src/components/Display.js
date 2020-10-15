@@ -8,13 +8,7 @@ export default function Display(props) {
   };
   return (
     <Box className="display">
-      <Typography
-        data-before={word}
-        variant="h1"
-        component="p"
-        align="center"
-        style={displayStyle}
-      >
+      <Typography data-before={word} variant="h1" component="p" align="center">
         {word}
       </Typography>
     </Box>
